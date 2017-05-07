@@ -1,0 +1,100 @@
+/* header start */
+html,body{font-size:100px;}
+header{width:100%; height:0.89rem; position:fixed; background:rgb(255,255,255); z-index:3; top:0;}
+header .menu{width:0.62rem; height:0.46rem; margin-left:0.22rem; margin-top:0.21rem; float:left; display:block;}
+header .logo{width:2.47rem; height:0.65rem; display:block; float:left; margin-left:1.68rem; margin-top:0.12rem;}
+header .barcode{width:0.45rem; height:0.45rem; float:right; display:block; margin:0.21rem 0.21rem 0 0;}
+/* header end */
+
+/* banner start */
+.banner{width:100%; height:2.8rem; margin-top:0.89rem; display:block;}
+.banner img{width:100%;}
+/* banner end */
+
+/* Online start */
+.online{width:100%; height:2.18rem; overflow:hidden;}
+.online .phone{width:5.41rem; height:1rem; line-height:0.85rem; background:url("../img/seek.png"); margin:64px auto; font-size:0.26rem; color:rgb(255,255,255);}
+.online .phone img{padding:0.18rem 0.17rem 0.17rem 0.59rem; display:block; float:left;}
+/* Online end */
+
+/* list start */
+ul.list{width:100%; height:3.87rem; padding:0 0.67rem 0 0.67rem;}
+ul.list li{width:1.2rem; text-align:center; float:left; margin-left:0.45rem;}
+ul.list li:first-of-type{margin:0;}
+ul.list li:nth-child(5){margin:0;}
+ul.list li .list-bg{width:1.2rem; height:1.2rem; text-align:center; background:url("../img/list-bg.png");}
+ul.list li .list-bg.icon1{padding:0.31rem 0 0 0;}
+ul.list li .list-bg.icon2{padding:0.28rem 0 0 0;}
+ul.list li .list-bg.icon3{padding:0.29rem 0 0 0;}
+ul.list li .list-bg.icon4{padding:0.32rem 0 0 0;}
+ul.list li .list-bg.icon5{padding:0.30rem 0 0 0;}
+ul.list li .list-bg img{display:block; margin:0 auto;}
+ul.list li p{font-size:0.3rem; height:48px; line-height:48px;}
+ul.list li .space{margin-top:0.31rem;}
+/* list end */
+
+/* pic start */
+.pic{width:100%; text-align:center; overflow:hidden;}
+.pic li{margin-top:0.65rem;}
+.pic li h2{width:4rem; line-height:0.76rem; font-size:0.6rem; margin:0 auto;}
+.pic li p{width:6rem; text-align:center; line-height:0.6rem; font-size:0.36rem; color:rgb(91,91,91); margin:0 auto 0.52rem;}
+/* pic end */
+
+/* sen start */
+.sen{width:100%; text-align:center; padding:0 0 0.44rem 0;}
+.sen p{color:rgb(211,61,72); height:2.8rem; line-height:4.08rem; font-size:0.4rem; font-weight:500;}
+.sen input{width:6.32rem; height:0.6rem; border:1px solid rgb(193,193,193); display:block; text-indent:0.21rem; outline:none; margin:0 auto 0; border-radius:0.03rem; color:rgb(153,153,153); font-size:0.3rem;}
+.sen button{width:6.32rem; height:0.88rem; margin:0 auto; background:rgb(211,61,72); border-radius:0.03rem; border:1px solid rgb(193,193,193); outline:none; color:rgb(255,255,255); font-size:0.3rem;}
+.sen input.txt{margin-top:0.44rem;}
+.sen p.school-p{line-height:2.78rem;}
+/* sen end */
+
+/* button start */
+.btn{width:6.3rem; height:0.88rem; border:1px solid rgb(193,193,193); border-radius:0.02rem; background:rgb(211,61,72); margin:0 auto 2rem; display:block; color:rgb(255,255,255); font-size:30px;}
+/* button end */
+
+/* school start */
+.school{width:100%; padding:0.1rem 0.2rem 0 0.2rem;}
+.school li{width:7.1rem; position:relative; margin:0.57rem 0 0 0;}
+.school li img{width:100%; height:3.86rem; display:block; margin:0 auto;}
+.school li .hall{width:100%; height:0.72rem; background:rgba(0,0,0,.5); position:absolute; bottom:0; margin:0 auto;}
+.school li .hall p{font-size:0.4rem; height:0.72rem; line-height:0.72rem; color:rgb(255,255,255); text-indent:0.33rem;}
+/* school end */
+
+/* study start */
+.study{width:100%; height:4.65rem; padding:0.22rem 0.83rem 0 0.35rem;}
+.study li{float:left; height:1.6rem; position:relative; margin:0.31rem 0 0 0.48rem;}
+.study li img{width:2.68rem; height:1.6rem; border-radius:0.03rem;}
+.study li p{width:2.8rem; height:0.54rem; line-height:0.54rem; text-align:center; background:rgba(0,0,0,.6); font-size:24px; color:rgb(255,255,255); border-bottom-left-radius:0.03rem; border-bottom-right-radius:0.03rem; position:absolute; bottom:0;}
+/* study end */
+
+/* foreign start */
+.foreign{width:100%;}
+.foreign h2{width:6.5rem; height:1.45rem; line-height:1.45rem; margin:0 auto; font-size:0.48rem; color:rgb(45,62,80); text-align:center;}
+.foreign p{width:5.8rem; height:3.28rem; line-height:0.6rem; font-size:0.36rem; color:rgb(51,51,51); text-indent:0.24rem;}
+/* foreign end */
+
+/* service start */
+.service{width:100%;}
+.service h2{width:6.5rem; height:1.37rem; line-height:1.37rem; margin:0 auto; font-size:0.48rem; color:rgb(45,62,80); text-align:center;}
+.service ul{width:7.12rem; border:2px solid rgb(232,232,232); margin:0 auto; padding-top:0.85rem;}
+.service ul li{overflow:hidden; margin-bottom:0.71rem;}
+.service ul li .student{width:2.2rem; height:1rem; float:left;}
+.service ul li .student img{display:block; margin:0 auto;}
+.service ul li .student p{font-size:0.22rem; line-height:0.41rem; text-align:center;}
+.service ul li .dialog{width:4.29rem; float:left; margin-left:0.33rem;}
+.service ul li .dialog .triangle{width:0; height:0; border-top:0.15rem solid transparent; border-right:0.26rem solid rgb(156,229,83); border-bottom:0.15rem solid transparent; float:left; margin-top:0.25rem;}
+.service ul li .dialog .content{width:4.03rem; float:right; background:rgb(156,229,83); font-size:0.32rem; border-radius:0.03rem; border:1px solid rgb(122,199,84); padding:0.24rem 0.29rem 0.31rem 0.23rem;}
+.service ul li .dialog .content p{line-height:0.49rem; color:rgb(51,51,51); text-align:justify;}
+.service ul li .dialog .teacher{background:rgb(250,250,250); border:1px solid rgb(204,204,204); float:left;}
+.service ul li .dialog .angle{width:0; height:0; border-top:0.15rem solid transparent; border-left:0.26rem solid rgb(204,204,204); border-bottom:0.15rem solid transparent; border-right:none; float:right; margin-top:0.25rem;}
+.service ul li .sculpture{float:right;}
+/* service end */
+
+/* footer start */
+.tab{width:100%; height:1.04rem; background:rgb(45,62,80); position:fixed; bottom:0;}
+.tab li{width:2.5rem; text-align:center; float:left;}
+.tab li .icon{margin:0.12rem auto 0; display:block;}
+.tab li p{color:rgb(255,255,255); font-size:0.24rem; line-height:0.32rem;}
+/* footer end */
+
