@@ -42,11 +42,12 @@ ul.list li .space{margin-top:0.31rem;}
 
 /* sen start */
 .sen{width:100%; text-align:center; padding:0 0 0.44rem 0;}
-.sen p{color:rgb(211,61,72); height:2.8rem; line-height:4.08rem; font-size:0.4rem; font-weight:500;}
+.sen p{color:rgb(211,61,72); height:2.8rem; line-height:4.08rem; font-size:0.6rem; font-weight:500;}
 .sen input{width:6.32rem; height:0.6rem; border:1px solid rgb(193,193,193); display:block; text-indent:0.21rem; outline:none; margin:0 auto 0; border-radius:0.03rem; color:rgb(153,153,153); font-size:0.3rem;}
 .sen button{width:6.32rem; height:0.88rem; margin:0 auto; background:rgb(211,61,72); border-radius:0.03rem; border:1px solid rgb(193,193,193); outline:none; color:rgb(255,255,255); font-size:0.3rem;}
 .sen input.txt{margin-top:0.44rem;}
 .sen p.school-p{line-height:2.78rem;}
+.sen p.school-p2{height:1.07rem; line-height:0.62rem;}
 /* sen end */
 
 /* button start */
@@ -55,7 +56,9 @@ ul.list li .space{margin-top:0.31rem;}
 
 /* school start */
 .school{width:100%; padding:0.1rem 0.2rem 0 0.2rem;}
+.school h2{font-size:0.48rem; height:0.76rem; line-height:0.55rem; text-align:center; color:rgb(45,62,80);}
 .school li{width:7.1rem; position:relative; margin:0.57rem 0 0 0;}
+.school li.margin{margin:0;}
 .school li img{width:100%; height:3.86rem; display:block; margin:0 auto;}
 .school li .hall{width:100%; height:0.72rem; background:rgba(0,0,0,.5); position:absolute; bottom:0; margin:0 auto;}
 .school li .hall p{font-size:0.4rem; height:0.72rem; line-height:0.72rem; color:rgb(255,255,255); text-indent:0.33rem;}
@@ -90,6 +93,49 @@ ul.list li .space{margin-top:0.31rem;}
 .service ul li .dialog .angle{width:0; height:0; border-top:0.15rem solid transparent; border-left:0.26rem solid rgb(204,204,204); border-bottom:0.15rem solid transparent; border-right:none; float:right; margin-top:0.25rem;}
 .service ul li .sculpture{float:right;}
 /* service end */
+
+/* about start */
+ul.faculty{width:100%; padding:0 0.59rem 0 0.59rem;}
+ul.faculty h2{font-size:0.48rem; line-height:1.76rem; text-align:center; color:rgb(45,62,80);}
+ul.faculty li{width:100%; overflow:hidden; padding-bottom:0.08rem;}
+ul.faculty li .icon{float:left; margin-right:0.19rem;}
+ul.faculty li .icon img{width:0.4rem; height:0.4rem; display:block;}
+ul.faculty li .icon .line{width:0.02rem; height:1.44rem; background:rgb(206,215,223); margin:0.13rem auto 0;}
+ul.faculty li .icon .line2{width:0.02rem; height:0.99rem; background:rgb(206,215,223); margin:0.13rem auto 0;}
+ul.faculty li p{font-size:0.32rem; color:rgb(51,51,51); line-height:0.47rem; overflow:hidden; text-align:justify;}
+.environment{width:100%; padding:0 0.81rem 0 0.81rem;}
+.environment p{height:0.94rem; line-height:0.94rem; border:0.02rem solid rgb(234,58,64); border-radius:0.15rem; font-size:0.4rem; color:rgb(234,58,64); text-align:center; margin-top:0.44rem; margin-bottom:1.12rem;}
+.environment .en{height:0.94rem; line-height:0.94rem; border:0.02rem solid rgb(234,58,64); border-radius:0.15rem; font-size:0.4rem; color:rgb(234,58,64); text-align:center; margin-top:0.25rem; margin-bottom:1.12rem;}
+.environment .en1{height:0.94rem; line-height:0.94rem; border:0.02rem solid rgb(234,58,64); border-radius:0.15rem; font-size:0.4rem; color:rgb(234,58,64); text-align:center; margin-top:0.65rem; margin-bottom:1.12rem;}
+.environment .en2{height:0.94rem; line-height:0.94rem; border:0.02rem solid rgb(234,58,64); border-radius:0.15rem; font-size:0.4rem; color:rgb(234,58,64); text-align:center; margin-top:0.63rem; margin-bottom:1.12rem;}
+
+ul.method{width:100%; overflow:hidden;}
+ul.method h2{font-size:0.48rem; height:1.1rem; text-align:center; line-height:0.51rem; color:rgb(45,62,80);}
+ul.method li{width:1.42rem; float:left;}
+ul.method li .twelve{width:1.42rem; height:1.42rem; background:rgb(45,62,80); border-radius:50%; padding-top:0.45rem;}
+ul.method li .twelve img{margin:0 auto; display:block;}
+ul.method li p{text-align:center; font-size:0.3rem; color:rgb(51,51,51); height:0.59rem; line-height:0.8rem;}
+
+.learning h2{font-size:0.48rem; text-align:center; color:rgb(45,62,80);}
+.learning p{font-size:0.36rem; color:rgb(51,51,51); line-height:0.64rem; margin-left:0.24rem;}
+
+.teachschool{width:100%; overflow:hidden; padding:0 0.6rem 0 0.6rem;}
+.teachschool h2{font-size:0.48rem; height:0.87rem; line-height:0.62rem; color:rgb(45,62,80); text-align:center;}
+.teachschool li{float:left;}
+.teachschool li img{display:block;}
+.teachschool li p{text-align:center; height:0.79rem; line-height:0.6rem; font-size:0.3rem; color:rgb(51,51,51);}
+
+.attachments{width:100%;}
+.attachments h2{font-size:0.48rem; height:0.75rem; line-height:0.5rem; text-align:center; color:rgb(45,62,80);}
+.attachments li{width:7.08rem; padding:0 0.2rem 0 0.2rem; position:relative; margin-bottom:0.3rem;}
+.attachments li img{display:block; margin:0 auto;}
+.attachments li p{width:100%; height:0.79rem; line-height:0.79rem; background:rgba(255,255,255,.5); font-size:0.4rem; text-indent:0.35rem; position:absolute; bottom:0; color:rgb(25,25,25);}
+
+.contact{width:100%;}
+.contact h2{font-size:0.48rem; height:0.92rem; line-height:0.52rem; text-align:center; color:rgb(45,62,80);}
+.contact img{display:block; margin:0 auto;}
+.contact p{font-size:0.36rem; height:2.38rem; line-height:0.6rem; padding:0 0 0 0.19rem; margin-top:0.48rem;}
+/* about end */
 
 /* footer start */
 .tab{width:100%; height:1.04rem; background:rgb(45,62,80); position:fixed; bottom:0;}
