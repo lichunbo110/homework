@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>注册</title>
+<link rel="stylesheet" href="css/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- header start -->
+<div class="register">
+    <a href="login.html" class="arrow"><img src="img/top_logo.png" alt=""></a>
+    <p class="regedit">注册</p>
+</div>
+<article>
+    <form>
+        <p id="empty"></p>
+        <label>
+            <p>账户名称 :</p>
+            <input type="text" placeholder="请输入账号" id="use">
+        </label>
+        <label>
+            <p>登录密码 :</p>
+            <input type="password" placeholder="请输入密码" id="password">
+        </label>
+        <label>
+            <p>确认密码 :</p>
+            <input type="password" placeholder="请输入密码" id="confirm">
+        </label>
+        <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="checked">
+            <p>我已阅读并接受走秀网服务条款</p>
+        </div>
+    </form>
+    <button id="btn" class="btn">注册</button>
+</article>
+<!-- header end -->
+</body>
+</html>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/register.js"></script>

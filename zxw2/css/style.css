@@ -1,0 +1,110 @@
+html,body{padding:0.67rem 0 0 0; font-size:100px; background:rgb(242,239,239);}
+a{text-decoration:none;}
+/* header start */
+.header{width:100%; height:0.78rem; padding:0 1rem 0 0.1rem; background:url("../img/top_bgline.png") repeat-x; position:fixed; top:0; bottom:0; left:0; right:0; z-index:100;}
+.header a img{display:block;}
+.header a .logo{float:left; padding-top:0.1rem;}
+.header a .icon2{float:right; padding-top:0.2rem;}
+.header a .icon1{float:right; padding-top:0.2rem; padding-right:0.2rem;}
+/* header end */
+
+/* banner start */
+.swiper-container{position:relative; z-index:0;}
+.swiper-container,.swiper-wrapper,.swiper-slide{width:100%; height:2rem;}
+.swiper-pagination-bullet{margin:0; padding:0;width:0.15rem; height:0.15rem; background:#ccc; opacity:1;}
+.swiper-pagination-bullet-active{background:rgb(213,19,214);}
+.swiper-slide img{width:100%; height:100%;}
+/* banner end */
+
+/* list start */
+ul.list{width:100%; overflow:hidden; margin-bottom:1rem;}
+ul.list li{overflow:hidden; margin-top:0.1rem;}
+ul.list li .photo{width:30%; height:1.3rem; display:block; float:left;}
+ul.list li .data{width:70%; float:left; padding:0 0.4rem 0 0.1rem;}
+ul.list li .data h2{font-size:0.18rem; height:0.7rem; line-height:0.3rem;}
+ul.list li .data p{font-size:0.16rem; float:left;}
+ul.list li .data a{width:0.5rem; height:0.3rem; background:rgb(223,38,96); border-radius:0.05rem; font-size:0.16rem; float:right; display:block;}
+ul.list li .data a img{display:block; margin:0 auto; padding-top:0.05rem;}
+ul.list li .data .price{color:rgb(223,38,96); font-size:0.18rem;}
+ul.list li .data .small{font-size:0.14rem; color:#ccc; margin-left:0.5rem; text-decoration:line-through;}
+ul.list li .data p.size{font-size:0.16rem; clear:left; margin-top:0.17rem; margin-left:0.05rem;}
+/* list end */
+
+/* listbox start */
+.listbox{width:100%; margin-bottom:1rem; background:rgb(255,255,255);}
+.listbox li{height:0.6rem; line-height:0.6rem; border-bottom:1px solid #ccc; font-size:0.24rem; background:url("../img/jiantou-right.jpg") no-repeat 96% center; padding:0 0.1rem;}
+/* listbox end */
+
+/* search start */
+.search{width:100%; padding:0.2rem 0.1rem 0 0.1rem;}
+.search .main{width:75%; height:0.7rem; background:rgb(255,255,255); border:1px solid #ccc; border-radius:0.1rem; float:left;}
+.search .main .seek{height:100%; float:left; padding:0.14rem 0.2rem 0 0.1rem;}
+.search .main .seek img{display:block;}
+.search .main .input{display:block; width:70%; height:100%; outline:none; font-size:0.25rem; border:none; float:left;}
+.search .main .delete{width:0.2rem; height:0.2rem; line-height:0.18rem; border-radius:50%; background:#ccc; float:left; font-size:0.16rem; color:rgb(255,255,255); text-align:center; margin-top:0.22rem; display:none;}
+.search .btn{width:20%; height:0.7rem; line-height:0.7rem; border-radius:0.1rem; float:right; background:rgb(246,0,140); font-size:0.25rem; color:rgb(255,255,255); text-align:center;}
+/* search end */
+
+/* more start */
+.more{width:100%; padding:0.3rem 0.5rem 0 0.5rem;}
+.more a{width:100%; height:0.6rem; line-height:0.6rem; font-size:0.25rem; display:block; border:1px solid #ccc; border-radius:0.05rem; text-indent:0.5rem; text-decoration:none; color:#484848; font-weight:bold; background:rgb(255,255,255); margin-bottom:0.1rem;}
+/* more end */
+
+/* register start */
+.register{width:100%; height:0.78rem; line-height:0.78rem; font-size:0.25rem; background:url("../img/top_bgline.png") repeat-x; position:fixed; top:0; bottom:0; left:0; right:0;}
+.register a.arrow{float:left; display:block; padding:0.2rem 0 0 0.2rem;}
+.register a.arrow img{display:block;}
+.register p.regedit{color:rgb(255,255,255); position:absolute; left:50%; margin-left:-0.25rem;}
+.register .icon2{float:right; padding-top:0.2rem; padding-right:1rem;}
+.register .icon1{float:right; padding-top:0.2rem; padding-right:0.2rem;}
+article{width:100%; padding-top:0.3rem;}
+article form{width:90%; margin:0 auto;}
+article p{font-size:0.18rem; color:rgb(237,0,0);}
+article form label{height:0.4rem; line-height:0.4rem; background:rgb(255,255,255); font-size:0.2rem; display:block; border-radius:0.10rem; margin-bottom:0.2rem; overflow:hidden;}
+article form label p{float:left; color:#484848; text-align:right; display:block; text-indent:0.2rem;}
+article form label input{width:60%; height:0.4rem; line-height:0.4rem; float:left; display:block; border:none; outline:none; font-size:0.2rem; text-indent:0.1rem;}
+article form .checkbox{width:90%; overflow:hidden; padding:0 0 0 0.2rem;}
+article form .checkbox input{width:0.25rem; height:0.25rem; display:block; float:left;}
+article form .checkbox p{font-size:0.16rem; float:left; line-height:0.26rem; color:rgb(242,0,136); padding-left:0.1rem;}
+article form .checkbox p a{color:rgb(242,0,136);}
+article form .login input{clear:both;}
+article form .login p{color:rgb(0,0,0);}
+article .btn{display:block; width:90%; height:0.4rem; line-height:0.4rem; background:rgb(242,0,136); border:none; outline:none; border-radius:0.05rem; margin:0.2rem auto 0; color:rgb(255,255,255); font-size:0.2rem; text-align:center;}
+article .btn2{margin:0.1rem auto 0;}
+/* register end */
+
+/* product start */
+ul.product{width:100%; background:rgb(255,255,255);}
+ul.product li{background:#f5f5f5; padding-bottom:0.15rem;}
+ul.product li .pic img{width:100%; height:2.5rem;}
+ul.product li .text{padding-left:0.2rem;}
+ul.product li .text h2{font-size:0.25rem; font-weight:normal;}
+ul.product li .text p.discount{float:left; display:block; padding-right:0.2rem; color:rgb(242,0,136);}
+ul.product li .text p.cost{display:block; text-decoration:line-through;}
+ul.product li .text p{font-size:0.24rem; line-height:0.35rem;}
+.info{width:100%; padding:0.15rem 0.1rem 0.15rem 0.1rem; box-sizing:border-box; background:rgb(255,255,255);}
+.info a{height:0.35rem; line-height:0.4rem; display:block; background:url("../img/info_bg.png") no-repeat left; font-size:0.2rem; box-sizing:border-box; padding-left:0.5rem; color:rgb(0,0,0);}
+.info a span{float:right;}
+.info a span img{margin-top:0.05rem;}
+/* product end */
+
+/* bag start */
+.bag{width:100%; background:#ccc; position:fixed; bottom:0; padding:0.1rem 1rem 0.1rem 1rem;}
+.bag a{display:block; font-size:0.2rem; background:rgb(242,0,136); text-align:center; border-radius:0.1rem; padding:0.2rem 0 0.2rem 0; color:rgb(255,255,255);}
+/* bag end */
+
+/* goodslist start */
+ul.goodslist{width:100%; padding:0.15rem; margin-bottom:0.9rem; overflow:hidden;}
+ul.goodslist li{width:33.3%; float:left; box-sizing:border-box; padding:0.05rem;}
+ul.goodslist li img{width:100%; height:3rem; display:block;}
+ul.goodslist li h2{font-size:0.2rem; height:0.55rem; line-height:0.22rem; padding:0.1rem 0.05rem; font-weight:normal; overflow:hidden;}
+ul.goodslist li p{font-size:0.18rem; padding:0 0.05rem; line-height:0.4rem; color:#E98EAE;}
+/* goodslist end */
+
+/* footer start */
+.footer{width:100%; background:rgb(80,72,77); position:fixed; bottom:0;}
+.footer a{width:25%; float:left; display:block; padding:10px 0 10px 0; text-decoration:none;}
+.footer a img{display:block; margin:0 auto;}
+.footer a p{text-align:center; font-size:18px; color:rgb(255,255,255);}
+.footer a.active{background:rgb(210,19,122);}
+/* footer end */
